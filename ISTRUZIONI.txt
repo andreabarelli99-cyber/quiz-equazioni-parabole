@@ -1,0 +1,29 @@
+QUIZ MULTIPLAYER — EQUAZIONI E PARABOLE (20 DOMANDE)
+
+Il link principale / e' RISERVATO AL DOCENTE: richiede password, non chiede di scegliere un ruolo.
+Gli studenti entrano dal QR code o dal link /join?pin=... e vedono domanda, quattro risposte e grafici sul telefono.
+Quando tutti gli studenti presenti all’avvio della domanda rispondono, la domanda si chiude automaticamente. Se qualcuno non risponde, si chiude allo scadere del timer.
+
+PROVA LOCALE SU WINDOWS
+1. Estrai lo ZIP in una cartella. Installa Node.js LTS se necessario (nodejs.org).
+2. Nella cartella apri il prompt dei comandi (scrivi cmd nella barra degli indirizzi di Esplora file).
+3. Esegui: npm install
+4. Esegui: npm start
+5. Apri http://localhost:3000 in Chrome. Password locale predefinita: docente123.
+6. Per simulare uno studente, apri una finestra in incognito su http://localhost:3000/join?pin=PIN, usando il PIN mostrato dal docente.
+7. Per una prova con smartphone sulla stessa Wi-Fi, usa http://IP_DEL_PC:3000/join?pin=PIN (IP del PC da ipconfig). Il firewall Windows deve consentire Node.js.
+
+PUBBLICAZIONE SU GITHUB E RENDER
+1. Crea un repository GitHub pubblico; carica I FILE E LA CARTELLA public, NON lo ZIP e NON la cartella node_modules.
+2. Render > New > Web Service > collega il repository.
+3. Language: Node. Build command: npm install. Start command: npm start.
+4. Environment > aggiungi HOST_PASSWORD con una password personale robusta.
+5. Scegli il piano disponibile e fai Deploy. Attendi stato Live.
+6. Apri l'URL HTTPS Render sulla LIM, inserisci la password, mostra il QR code.
+7. Prova prima con due smartphone reali, anche con reti diverse.
+
+NOTE
+Il QR viene generato tramite api.qrserver.com e richiede Internet; il link testuale funziona anche se il QR non si carica.
+Il piano gratuito Render, se disponibile, puo' andare in sospensione e non garantisce la continuita' del servizio.
+Il progetto tiene partita e punteggi nella memoria del server: un riavvio del server azzera la partita.
+Non usare dati personali degli studenti nei nickname.

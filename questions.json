@@ -1,0 +1,351 @@
+[
+  {
+    "type": "Teoria",
+    "text": "Qual è la forma normale di un’equazione di secondo grado?",
+    "options": [
+      "ax² + bx + c = 0, a ≠ 0",
+      "ax + b = 0, a ≠ 0",
+      "ax² + bx + c = 0, a = 0",
+      "ax³ + bx + c = 0"
+    ],
+    "correct": 0,
+    "explain": "Il coefficiente di x² deve essere non nullo.",
+    "seconds": 35
+  },
+  {
+    "type": "Formule",
+    "text": "Qual è il discriminante di ax² + bx + c = 0?",
+    "options": [
+      "b² + 4ac",
+      "b² − 4ac",
+      "−b / 2a",
+      "4ac − b²"
+    ],
+    "correct": 1,
+    "explain": "Δ = b² − 4ac.",
+    "seconds": 35
+  },
+  {
+    "type": "Formule",
+    "text": "Qual è la formula risolutiva completa?",
+    "options": [
+      "x = (b ± √Δ)/(2a)",
+      "x = (−b ± √Δ)/a",
+      "x = (−b ± √Δ)/(2a)",
+      "x = (−b ± Δ)/(2a)"
+    ],
+    "correct": 2,
+    "explain": "Si calcola Δ e poi x = (−b ± √Δ)/(2a).",
+    "seconds": 40
+  },
+  {
+    "type": "Grafico e Δ",
+    "text": "Osserva la parabola: quale segno ha Δ?",
+    "options": [
+      "Δ > 0",
+      "Δ = 0",
+      "Δ < 0",
+      "non è possibile saperlo"
+    ],
+    "correct": 2,
+    "explain": "Non incontra l’asse x, quindi Δ < 0.",
+    "seconds": 35,
+    "graph": {
+      "a": 1,
+      "b": 0,
+      "c": 2
+    }
+  },
+  {
+    "type": "Grafico e Δ",
+    "text": "Osserva la parabola: quale segno ha Δ?",
+    "options": [
+      "Δ < 0",
+      "Δ > 0",
+      "Δ = 0",
+      "Δ dipende dal segno di a"
+    ],
+    "correct": 2,
+    "explain": "La parabola tocca l’asse x in un solo punto, dunque Δ = 0.",
+    "seconds": 35,
+    "graph": {
+      "a": -1,
+      "b": 2,
+      "c": -1
+    }
+  },
+  {
+    "type": "Concavità",
+    "text": "Osserva la parabola: quale segno ha a?",
+    "options": [
+      "a < 0",
+      "a > 0",
+      "a = 0",
+      "non si può stabilire"
+    ],
+    "correct": 0,
+    "explain": "I rami sono rivolti verso il basso, quindi a < 0.",
+    "seconds": 35,
+    "graph": {
+      "a": -0.65,
+      "b": 0,
+      "c": 3
+    }
+  },
+  {
+    "type": "Concavità",
+    "text": "Se a > 0 e Δ < 0, la parabola…",
+    "options": [
+      "sta tutta sotto l’asse x",
+      "sta tutta sopra l’asse x",
+      "taglia l’asse x due volte",
+      "tocca l’asse x"
+    ],
+    "correct": 1,
+    "explain": "Concavità verso l’alto e nessuno zero: il trinomio è sempre positivo.",
+    "seconds": 35
+  },
+  {
+    "type": "Passaggi",
+    "text": "Qual è l’ordine corretto per risolvere una disequazione di secondo grado?",
+    "options": [
+      "Equazione associata → forma normale → soluzioni → parabola",
+      "Forma normale → parabola → equazione associata → soluzioni",
+      "Forma normale → equazione associata → parabola → soluzioni",
+      "Parabola → equazione associata → forma normale → soluzioni"
+    ],
+    "correct": 2,
+    "explain": "I quattro passaggi sono: forma normale; equazione associata; parabola; lettura delle soluzioni.",
+    "seconds": 45
+  },
+  {
+    "type": "Passaggi",
+    "text": "Dopo aver risolto l’equazione associata, cosa fai?",
+    "options": [
+      "Rappresento la parabola",
+      "Cambio il verso della disequazione",
+      "Calcolo sempre il vertice",
+      "Scrivo subito tutte le x reali"
+    ],
+    "correct": 0,
+    "explain": "Le radici indicano le intersezioni con l’asse x: poi si disegna la parabola.",
+    "seconds": 35
+  },
+  {
+    "type": "Passaggi",
+    "text": "Per risolvere f(x) > 0 dal grafico, cerchi i punti della parabola…",
+    "options": [
+      "sull’asse x",
+      "sotto l’asse x",
+      "sopra l’asse x",
+      "a sinistra dell’asse y"
+    ],
+    "correct": 2,
+    "explain": "f(x) > 0 quando le ordinate della parabola sono positive.",
+    "seconds": 35
+  },
+  {
+    "type": "Passaggi",
+    "text": "Per risolvere f(x) ≤ 0 dal grafico, cerchi i punti…",
+    "options": [
+      "solo sopra l’asse x",
+      "sotto o sull’asse x",
+      "solo sotto l’asse x",
+      "a destra dell’asse y"
+    ],
+    "correct": 1,
+    "explain": "Il simbolo ≤ include anche i punti di intersezione con l’asse x.",
+    "seconds": 35
+  },
+  {
+    "type": "Lettura grafica",
+    "text": "La parabola mostrata è sopra l’asse x per…",
+    "options": [
+      "−2 < x < 2",
+      "x < −2 oppure x > 2",
+      "−2 ≤ x ≤ 2",
+      "nessun valore"
+    ],
+    "correct": 1,
+    "explain": "La parabola è rivolta verso l’alto: è positiva all’esterno delle radici.",
+    "seconds": 35,
+    "graph": {
+      "a": 1,
+      "b": 0,
+      "c": -4
+    }
+  },
+  {
+    "type": "Trinomio → grafico",
+    "text": "Quale dei quattro grafici rappresenta y = x² − 4?",
+    "options": [
+      "Grafico A",
+      "Grafico B",
+      "Grafico C",
+      "Grafico D"
+    ],
+    "correct": 1,
+    "explain": "La parabola ha concavità verso l’alto e interseca l’asse x in −2 e 2.",
+    "seconds": 50,
+    "optionGraphs": [
+      {
+        "a": -1,
+        "b": 0,
+        "c": 4
+      },
+      {
+        "a": 1,
+        "b": 0,
+        "c": -4
+      },
+      {
+        "a": 1,
+        "b": 0,
+        "c": 4
+      },
+      {
+        "a": -1,
+        "b": 0,
+        "c": -4
+      }
+    ]
+  },
+  {
+    "type": "Grafico → trinomio",
+    "text": "Quale trinomio corrisponde al grafico?",
+    "options": [
+      "y = x² + 4",
+      "y = −x² + 4",
+      "y = x² − 4",
+      "y = −x² − 4"
+    ],
+    "correct": 2,
+    "explain": "La parabola ha concavità verso l’alto, zeri −2 e 2 e passa per (0; −4).",
+    "seconds": 35,
+    "graph": {
+      "a": 1,
+      "b": 0,
+      "c": -4
+    }
+  },
+  {
+    "type": "Trinomio → grafico",
+    "text": "Quale dei quattro grafici rappresenta y = (x − 2)²?",
+    "options": [
+      "Grafico A",
+      "Grafico B",
+      "Grafico C",
+      "Grafico D"
+    ],
+    "correct": 2,
+    "explain": "È una parabola verso l’alto tangente all’asse x in x = 2.",
+    "seconds": 50,
+    "optionGraphs": [
+      {
+        "a": 1,
+        "b": 4,
+        "c": 4
+      },
+      {
+        "a": -1,
+        "b": 4,
+        "c": -4
+      },
+      {
+        "a": 1,
+        "b": -4,
+        "c": 4
+      },
+      {
+        "a": 1,
+        "b": 0,
+        "c": 4
+      }
+    ]
+  },
+  {
+    "type": "Caso Δ = 0",
+    "text": "Per il trinomio f(x) = (x − 2)², quando vale f(x) > 0?",
+    "options": [
+      "per ogni x reale",
+      "solo per x = 2",
+      "per x ≠ 2",
+      "mai"
+    ],
+    "correct": 2,
+    "explain": "Il quadrato è positivo per tutti i reali tranne x = 2, dove vale zero.",
+    "seconds": 35,
+    "graph": {
+      "a": 1,
+      "b": -4,
+      "c": 4
+    }
+  },
+  {
+    "type": "Caso Δ = 0",
+    "text": "Per lo stesso trinomio f(x) = (x − 2)², quando vale f(x) < 0?",
+    "options": [
+      "per x < 2",
+      "per x > 2",
+      "per x ≠ 2",
+      "mai"
+    ],
+    "correct": 3,
+    "explain": "Un quadrato non può essere negativo.",
+    "seconds": 35,
+    "graph": {
+      "a": 1,
+      "b": -4,
+      "c": 4
+    }
+  },
+  {
+    "type": "Caso Δ = 0",
+    "text": "Per f(x) = (x − 2)², quando vale f(x) ≥ 0?",
+    "options": [
+      "per ogni x reale",
+      "solo per x = 2",
+      "per x ≠ 2",
+      "mai"
+    ],
+    "correct": 0,
+    "explain": "Un quadrato è sempre non negativo, compreso il punto di tangenza.",
+    "seconds": 35,
+    "graph": {
+      "a": 1,
+      "b": -4,
+      "c": 4
+    }
+  },
+  {
+    "type": "Caso Δ = 0",
+    "text": "Per f(x) = (x − 2)², quando vale f(x) ≤ 0?",
+    "options": [
+      "per ogni x reale",
+      "per x ≠ 2",
+      "solo per x = 2",
+      "mai"
+    ],
+    "correct": 2,
+    "explain": "Il quadrato è zero soltanto in x = 2 e non è mai negativo.",
+    "seconds": 35,
+    "graph": {
+      "a": 1,
+      "b": -4,
+      "c": 4
+    }
+  },
+  {
+    "type": "Disequazione guidata",
+    "text": "La parabola di y = x² − 4x + 4 tocca l’asse x in x = 2 ed è rivolta verso l’alto. Risolvi x² − 4x + 4 ≤ 0.",
+    "options": [
+      "x ≠ 2",
+      "x = 2",
+      "x ≤ 2",
+      "ogni x reale"
+    ],
+    "correct": 1,
+    "explain": "È sotto o sull’asse x soltanto nel punto di tangenza.",
+    "seconds": 35
+  }
+]
